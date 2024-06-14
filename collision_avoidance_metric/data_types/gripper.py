@@ -5,7 +5,7 @@ import open3d as o3d
 class GripperPaths():
 
     def __init__(self, size: float, step: float, z_tolerance: float):
-        """Initialize GripperPaths
+        """Initialize GripperPaths.
 
         Args:
             size (float): size of the gripper used in mm. Default 10.0mm.
@@ -27,7 +27,7 @@ class GripperPaths():
                 of the point cloud.
         Returns:
             np.array, the gripper paths defined as the center point of the gripper in
-                each descent path
+                each descent path.
         """
         # generate the gripper paths
         min_bound = axis_aligned_bounding_box.get_min_bound()
