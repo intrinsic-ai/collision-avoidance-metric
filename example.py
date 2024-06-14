@@ -1,11 +1,13 @@
 import numpy as np
 import open3d as o3d
+import sys
 
 from collision_avoidance_metric import collision_metric_evaluator
 
 if __name__ == "__main__":
-    query = "query_point_cloud.ply"
-    gt = "gt_point_cloud.ply"
+    assert len(sys.argv) == 3, "Please pass query and gt point cloud paths"
+    query = sys.argv[1]
+    gt = sys.argv[2]
     evaluator = collision_metric_evaluator.CollisionAvoidanceMetric(
         gripper_z_tolerances=[10.0],
         directions=[[0, 0, 0]],

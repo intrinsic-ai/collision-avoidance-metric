@@ -12,6 +12,12 @@ Accepted at CVPR Workshop 2024 (Vision and Language for Autonomous Driving and R
 ## This Repo
 This repo contains the implementation of the Collision Avoidance Metrics. Example usage can be found in [example.py](example.py).
 
+Example usage:
+
+```sh
+    python3 example.py <PATH-TO-QUERY-POINTCLOUD> <PATH-TO-GT-POINTCLOUD>
+```
+
 ### Requirements
 
 - Numpy
