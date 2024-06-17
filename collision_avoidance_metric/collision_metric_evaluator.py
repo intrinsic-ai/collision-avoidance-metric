@@ -2,7 +2,7 @@ from typing import Dict, List, Tuple, Union
 
 from collision_avoidance_metric import utils
 from collision_avoidance_metric.data_types import point_cloud
-from collision_avoidance_metric.data_types import collision_metrics
+from collision_avoidance_metric.data_types import collision_metric
 from collision_avoidance_metric.data_types import gripper
 
 
@@ -45,7 +45,7 @@ class CollisionAvoidanceMetric():
             gt_point_cloud: point_cloud.PointCloud,
             gripper: gripper.GripperPaths,
             direction: Tuple[float, float, float],
-        ) -> collision_metrics.CollisionMetricsResults:
+        ) -> collision_metric.CollisionMetricsResults:
         """Compute collision metric for a specific gripper direction.
 
         Args:
