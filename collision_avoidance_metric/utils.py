@@ -81,7 +81,7 @@ def evaluate_collision_map(
     )
 
     fpmap = (max_tbe_gt_diff < -gripper.z_tolerance) * mask
-    fpmap = fpmap.astype(np.bool)
+    fpmap = fpmap.astype(np.bool_)
     fnmap = min_tbe_gt_diff > gripper.z_tolerance
 
     fp = np.sum(fpmap)

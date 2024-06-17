@@ -18,11 +18,16 @@ Example usage:
     python3 example.py <PATH-TO-QUERY-POINTCLOUD> <PATH-TO-GT-POINTCLOUD>
 ```
 
-### Requirements
+### Requirements and setup
 
 - Numpy
 - Open3D
 - OpenCV
+
+With Pyhthon 3.10 you can run:
+```
+    pip install -r requirements.txt
+```
 
 ### Owners
 - vage@google.com
