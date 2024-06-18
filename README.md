@@ -32,3 +32,10 @@ With Pyhthon 3.10 you can run:
 ### Owners
 - vage@google.com
 - dallolio@google.com
+
+Copyright (c) Intrinsic Innovation LLC
+All rights reserved.
+
+This source code is licensed under the license found in the
+LICENSE file in the root directory of this source tree.
+
