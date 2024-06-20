@@ -33,7 +33,7 @@ With Pyhthon 3.10 you can run:
     pip install -r requirements.txt
 ```
 
-## Citations
+## Citation
 If you want to cite our paper:
 
 ```
