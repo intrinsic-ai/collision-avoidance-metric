@@ -1,6 +1,7 @@
 ![alt text](images/logo.png)
 
-# Collision Avoidance Metrics for 3D Camera Evaluation
+# Collision Avoidance Metrics for 3D Camera Evaluation (CPP)
+
 This repository contains the implementation of our paper:
 > **Collision Avoidance Metric for 3D Camera Evaluation**\
 > Vage Taamazyan, Alberto Dall'olio, Agastya Kalra \
