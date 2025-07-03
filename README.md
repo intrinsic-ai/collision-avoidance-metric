@@ -29,7 +29,10 @@ Example usage:
 - OpenCV
 
 With Pyhthon 3.10 you can run:
-```
+
+```sh
+    python3 -m venv collision_metric
+    source collision_metric/bin/activate
     pip install -r requirements.txt
 ```
 
