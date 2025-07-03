@@ -1,0 +1,33 @@
+[project]
+name = "collision-avoidance-metric"
+version = "0.0.1"
+description = "Collision Avoidance Metrics for 3D Camera Evaluation."
+readme = "README.md"
+
+authors = [
+    {name = "Intrinsic Innovation LLC", email = "vage@intrinsic.ai"},
+    {name = "Intrinsic Innovation LLC", email = "dallolio@intrinsic.ai"},
+    {name = "Intrinsic Innovation LLC", email = "agastyak@intrinsic.ai"},
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "open3d>=0.18.0",
+    "numpy>=1.25.1",
+    "opencv-python>=4.10.0.82",
+]
+
+keywords = ["collision avoidance", "metrics"]
+
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/intrinsic-ai/collision-avoidance-metric"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
