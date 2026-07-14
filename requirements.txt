@@ -48,7 +48,7 @@ flask==3.0.3
     # via dash
 fonttools==4.53.0
     # via matplotlib
-idna==3.7
+idna==3.15
     # via requests
 importlib-metadata==7.1.0
     # via dash
